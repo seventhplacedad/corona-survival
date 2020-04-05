@@ -3324,3 +3324,53 @@ java.io.IOException: Bad file descriptor
 [12:39:57] [Server thread/INFO]: Zortwil[/127.0.0.1:58540] logged in with entity id 170322 at ([world]-377.9489151258361, 76.5, -416.13749998807907)
 [12:54:08] [Server thread/INFO]: Zortwil lost connection: Disconnected
 [12:54:08] [Server thread/INFO]: Zortwil left the game
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Warning: remote port forwarding failed for listen port 4000
+Loading libraries, please wait...
+[16:40:58] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[16:40:58] [Server thread/INFO]: Loading properties
+[16:40:58] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_242]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_242]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:105) [spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+[16:40:59] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-6de3d4b-a6f8093 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[16:40:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:40:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:40:59] [Server thread/INFO]: Debug logging is disabled
+[16:40:59] [Server thread/INFO]: Default game type: SURVIVAL
+[16:40:59] [Server thread/INFO]: Generating keypair
+[16:40:59] [Server thread/INFO]: Starting Minecraft server on *:4000
+[16:40:59] [Server thread/INFO]: Using epoll channel type
+[16:40:59] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[16:40:59] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[16:40:59] [Server thread/WARN]: Perhaps a server is already running on that port?
+[16:40:59] [Server thread/INFO]: Stopping server
+[16:40:59] [Server thread/INFO]: Saving players
+[16:41:00] [Server thread/INFO]: Saving worlds
+[16:47:56] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[16:47:57] [Server thread/INFO]: matt18990 left the game
+[16:47:58] [Thread-2/INFO]: Stopping server
+[16:47:58] [Thread-2/INFO]: Saving players
+[16:47:58] [Thread-2/INFO]: Saving worlds
+[16:47:58] [Thread-2/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[16:48:04] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:48:04] [Thread-2/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[16:48:04] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:48:04] [Thread-2/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[16:48:04] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:48:04] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:48:08] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:48:09] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
