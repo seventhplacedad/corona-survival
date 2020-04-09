@@ -3374,3 +3374,892 @@ java.io.IOException: Bad file descriptor
 [16:48:04] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [16:48:08] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [16:48:09] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[16:52:17] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[16:52:17] [Server thread/INFO]: Loading properties
+[16:52:17] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_242]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_242]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:105) [spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+[16:52:18] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-6de3d4b-a6f8093 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[16:52:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:52:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:52:18] [Server thread/INFO]: Debug logging is disabled
+[16:52:18] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:18] [Server thread/INFO]: Generating keypair
+[16:52:18] [Server thread/INFO]: Starting Minecraft server on *:4000
+[16:52:18] [Server thread/INFO]: Using epoll channel type
+[16:52:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:52:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:52:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:52:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:52:19] [Server thread/INFO]: Preparing level "world"
+[16:52:19] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[16:52:20] [Server thread/INFO]: Loaded 6 recipes
+[16:52:20] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:52:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:52:20] [Server thread/INFO]: Mob Spawn Range: 6
+[16:52:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:52:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:52:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:52:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:52:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:52:20] [Server thread/INFO]: Max TNT Explosions: 100
+[16:52:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:52:20] [Server thread/INFO]: View Distance: 10
+[16:52:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:52:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:52:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:52:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:52:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:52:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:52:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:52:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:52:21] [Server thread/INFO]: Mob Spawn Range: 6
+[16:52:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:52:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:52:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:52:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:52:21] [Server thread/INFO]: Max TNT Explosions: 100
+[16:52:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:52:21] [Server thread/INFO]: View Distance: 10
+[16:52:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:52:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:52:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:52:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:52:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:52:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:52:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:52:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:52:21] [Server thread/INFO]: Mob Spawn Range: 6
+[16:52:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:52:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:52:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:52:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:52:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:52:21] [Server thread/INFO]: Max TNT Explosions: 100
+[16:52:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:52:21] [Server thread/INFO]: View Distance: 10
+[16:52:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:52:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:52:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:52:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:52:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:52:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:52:21] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[16:52:23] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:23] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:23] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:23] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:31] [Server thread/INFO]: Preparing spawn area: 22%
+[16:52:31] [Server thread/INFO]: Time elapsed: 10242 ms
+[16:52:31] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[16:52:32] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:32] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:32] [Server thread/INFO]: Time elapsed: 1029 ms
+[16:52:32] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[16:52:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:52:33] [Server thread/INFO]: Time elapsed: 334 ms
+[16:52:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:52:33] [Server thread/INFO]: Done (14.017s)! For help, type "help"
+[16:52:33] [Server thread/INFO]: Starting remote control listener
+[16:52:33] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:4001
+[20:19:39] [User Authenticator #1/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:19:40] [Server thread/INFO]: Zortwil[/127.0.0.1:57912] logged in with entity id 182 at ([world]-368.95276533751405, 80.0, -417.5152117550463)
+[20:39:42] [Server thread/INFO]: Zortwil has made the advancement [Fishy Business]
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:00:22] [Server thread/ERROR]: Can't find any space for item in the inventory
+[21:22:47] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:22:47] [Server thread/INFO]: Zortwil left the game
+[21:27:15] [User Authenticator #2/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:27:15] [Server thread/INFO]: Zortwil[/127.0.0.1:58768] logged in with entity id 8891 at ([world]-367.51812945347496, 79.875, -412.4461150233626)
+[01:48:14] [User Authenticator #3/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[01:48:14] [Server thread/INFO]: matt18990[/127.0.0.1:35508] logged in with entity id 35028 at ([world]-280.17546751815473, 82.0, -452.2729112469766)
+[01:50:01] [Async Chat Thread - #0/INFO]: <Zortwil> lmao
+[01:50:36] [Async Chat Thread - #0/INFO]: <matt18990> log real q so i can sleep pls
+[01:50:38] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[01:50:38] [Server thread/INFO]: Zortwil left the game
+[01:50:44] [User Authenticator #4/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:50:45] [Server thread/INFO]: Zortwil[/127.0.0.1:35512] logged in with entity id 35313 at ([world]-366.30000001192093, 77.0, -413.30000001192093)
+[01:50:48] [Async Chat Thread - #0/INFO]: <matt18990> ty
+[01:51:05] [Async Chat Thread - #0/INFO]: <Zortwil> we should afk farm tn
+[01:51:08] [Async Chat Thread - #0/INFO]: <Zortwil> i have 2 mending rods
+[01:51:15] [Async Chat Thread - #0/INFO]: <matt18990> afk fish?
+[01:51:24] [Async Chat Thread - #0/INFO]: <Zortwil> ya
+[01:51:28] [Async Chat Thread - #0/INFO]: <Zortwil> gets u books
+[01:51:30] [Async Chat Thread - #0/INFO]: <matt18990> te
+[01:51:32] [Async Chat Thread - #0/INFO]: <matt18990> ye
+[01:51:36] [Async Chat Thread - #0/INFO]: <Zortwil> oh yeah
+[01:51:39] [Async Chat Thread - #0/INFO]: <Zortwil> *fish
+[01:53:42] [Async Chat Thread - #1/INFO]: <matt18990> wtf
+[01:53:48] [Async Chat Thread - #1/INFO]: <matt18990> theres squid in our lil shitty pool
+[01:53:49] [Async Chat Thread - #1/INFO]: <matt18990> lmfao
+[01:53:55] [Async Chat Thread - #1/INFO]: <Zortwil> lol
+[01:54:01] [Async Chat Thread - #1/INFO]: <Zortwil> vibin
+[01:54:13] [Async Chat Thread - #1/INFO]: <matt18990> fucker
+[02:14:05] [Server thread/INFO]: Zortwil lost connection: Timed out
+[02:14:05] [Server thread/INFO]: Zortwil left the game
+[02:14:24] [User Authenticator #5/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[02:14:24] [Server thread/INFO]: Zortwil[/127.0.0.1:36040] logged in with entity id 39430 at ([world]-367.4369899045776, 79.875, -412.63812063185134)
+[02:16:27] [Async Chat Thread - #2/INFO]: <matt18990> wyd
+[02:16:36] [Async Chat Thread - #2/INFO]: <matt18990> anything important?
+[02:21:52] [Async Chat Thread - #3/INFO]: <matt18990> ehy
+[02:21:54] [Async Chat Thread - #3/INFO]: <matt18990> hey
+[02:24:39] [Async Chat Thread - #4/INFO]: <Zortwil> o
+[02:24:40] [Async Chat Thread - #4/INFO]: <Zortwil> no
+[02:24:43] [Async Chat Thread - #4/INFO]: <Zortwil> im afk
+[02:26:34] [Async Chat Thread - #5/INFO]: <matt18990> yay
+[02:26:56] [Async Chat Thread - #5/INFO]: <matt18990> ty lmao
+[02:27:04] [Async Chat Thread - #5/INFO]: <Zortwil> u got fucked lmao
+[02:27:09] [Async Chat Thread - #5/INFO]: <matt18990> that was si sad
+[02:27:12] [Async Chat Thread - #5/INFO]: <Zortwil> creeper beats full dia
+[02:27:24] [Async Chat Thread - #5/INFO]: <matt18990> bless prot4 all
+[02:27:31] [Async Chat Thread - #5/INFO]: <matt18990> 3 hearts
+[02:27:41] [Async Chat Thread - #5/INFO]: <Zortwil> but he still won
+[02:27:45] [Async Chat Thread - #5/INFO]: <Zortwil> bc u got stuck
+[02:30:22] [Async Chat Thread - #6/INFO]: <matt18990> have y seen my elytra
+[02:30:38] [Async Chat Thread - #6/INFO]: <matt18990> o nvm
+[02:37:22] [Async Chat Thread - #7/INFO]: <Zortwil> wyd
+[02:37:36] [Async Chat Thread - #7/INFO]: <Zortwil> oo
+[02:37:37] [Async Chat Thread - #7/INFO]: <matt18990> wip
+[02:44:53] [Async Chat Thread - #8/INFO]: <Zortwil> if i change the language my sound comes back everytime
+[02:44:56] [Async Chat Thread - #8/INFO]: <Zortwil> interesting
+[02:44:57] [Async Chat Thread - #8/INFO]: <matt18990> wtf lmao
+[02:50:34] [Async Chat Thread - #9/INFO]: <Zortwil> o u got wood ty
+[02:50:45] [Async Chat Thread - #9/INFO]: <matt18990> do we have leather
+[02:51:00] [Async Chat Thread - #9/INFO]: <matt18990> ty
+[03:05:39] [Async Chat Thread - #10/INFO]: <matt18990> yay
+[03:05:44] [Async Chat Thread - #10/INFO]: <Zortwil> s h i t s e e d
+[03:05:48] [Async Chat Thread - #10/INFO]: <matt18990> f
+[03:12:06] [Async Chat Thread - #11/INFO]: <Zortwil> why do we have 47 hoppers lmao
+[03:12:09] [Async Chat Thread - #11/INFO]: <matt18990> idk lmao
+[03:18:39] [Async Chat Thread - #12/INFO]: <matt18990> wyd
+[03:19:35] [Async Chat Thread - #12/INFO]: <Zortwil> afk
+[03:36:07] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[03:36:07] [Server thread/INFO]: matt18990 left the game
+[04:09:19] [Server thread/WARN]: Zortwil moved too quickly! 8.803996250045373,-1.2046003784434305,-4.644817718900981
+[04:11:48] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:11:48] [Server thread/INFO]: Zortwil left the game
+[04:18:34] [User Authenticator #6/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:18:34] [Server thread/INFO]: Zortwil[/127.0.0.1:37584] logged in with entity id 61991 at ([world]-271.08352847744334, 80.5, -458.5641220900026)
+[05:16:08] [User Authenticator #7/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[05:16:08] [Server thread/INFO]: matt18990[/127.0.0.1:38322] logged in with entity id 70790 at ([world]-280.35748296952113, 82.0, -452.8374308040539)
+[05:30:24] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[05:30:24] [Server thread/INFO]: matt18990 left the game
+[06:42:16] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[06:42:16] [Server thread/INFO]: Zortwil left the game
+[06:42:24] [User Authenticator #8/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:42:24] [Server thread/INFO]: Zortwil[/127.0.0.1:39628] logged in with entity id 82120 at ([world]-366.36127644417223, 79.0, -414.69999998807907)
+[06:54:54] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[06:54:54] [Server thread/INFO]: Zortwil left the game
+[06:54:55] [User Authenticator #9/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:54:55] [Server thread/INFO]: Zortwil[/127.0.0.1:39774] logged in with entity id 83823 at ([world]-366.45130751677084, 78.0, -411.30000001192093)
+[06:56:58] [User Authenticator #10/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:56:58] [Server thread/INFO]: matt18990[/127.0.0.1:39834] logged in with entity id 84165 at ([world]-280.400415173602, 82.0, -452.8368090354572)
+[07:07:57] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[07:07:57] [Server thread/INFO]: matt18990 left the game
+[07:18:06] [User Authenticator #11/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[07:18:06] [Server thread/INFO]: matt18990[/127.0.0.1:40090] logged in with entity id 86861 at ([world]-371.4266751582484, 78.5, -415.20886968690326)
+[07:21:38] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[07:21:38] [Server thread/INFO]: Zortwil left the game
+[07:21:48] [User Authenticator #12/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[07:21:48] [Server thread/INFO]: Zortwil[/127.0.0.1:40166] logged in with entity id 87441 at ([world]-281.6419858920364, 82.0, -448.4333337603587)
+[08:09:43] [Async Chat Thread - #13/INFO]: <matt18990> signal strength = truncate(1 + ((sum of all slots' fullnesses) / (number of slots in container)) * 14)fullness of a slot = (number of items in slot) / (max stack size for this type of item)
+[08:47:07] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[08:47:07] [Server thread/INFO]: Zortwil left the game
+[08:51:22] [User Authenticator #13/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:51:22] [Server thread/INFO]: Zortwil[/127.0.0.1:41260] logged in with entity id 98679 at ([world]-365.35040978284417, 79.875, -412.5177999187982)
+[09:05:47] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:05:47] [Server thread/INFO]: Zortwil left the game
+[09:07:30] [User Authenticator #14/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:07:30] [Server thread/INFO]: Zortwil[/127.0.0.1:41456] logged in with entity id 101744 at ([world]-367.43529718246174, 79.875, -412.53307748006836)
+[09:11:09] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[09:11:09] [Server thread/INFO]: matt18990 left the game
+[09:11:14] [User Authenticator #15/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[09:11:14] [Server thread/INFO]: matt18990[/127.0.0.1:41522] logged in with entity id 102325 at ([world]-286.6792039704478, 82.0, -453.4608850430531)
+[09:15:28] [Server thread/INFO]: matt18990 has made the advancement [Fishy Business]
+[17:55:07] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[17:55:07] [Server thread/INFO]: Zortwil left the game
+[20:25:42] [User Authenticator #16/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:25:42] [Server thread/INFO]: Zortwil[/127.0.0.1:50294] logged in with entity id 142388 at ([world]-366.64899637895786, 79.0, -414.2295806706552)
+[22:52:49] [Async Chat Thread - #14/INFO]: <Zortwil> o hi
+[22:52:51] [Async Chat Thread - #14/INFO]: <matt18990> hey
+[22:52:54] [Async Chat Thread - #14/INFO]: <matt18990> got class in 5
+[22:52:54] [Async Chat Thread - #14/INFO]: <Zortwil> shit drops
+[22:52:57] [Async Chat Thread - #14/INFO]: <matt18990> lmao fr
+[22:53:02] [Async Chat Thread - #14/INFO]: <Zortwil> well
+[22:53:04] [Async Chat Thread - #14/INFO]: <Zortwil> 1 mending book
+[22:54:59] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[22:54:59] [Server thread/INFO]: matt18990 left the game
+[23:18:02] [User Authenticator #17/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[23:18:02] [Server thread/INFO]: matt18990[/127.0.0.1:52398] logged in with entity id 159764 at ([world]-366.3831783512636, 80.0, -415.93087761395265)
+[23:25:46] [Async Chat Thread - #15/INFO]: <matt18990> zoomcraft
+[23:26:32] [Async Chat Thread - #15/INFO]: <matt18990> got an eff V book
+[23:28:42] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[23:28:42] [Server thread/INFO]: matt18990 left the game
+[00:05:18] [User Authenticator #18/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[00:05:18] [Server thread/INFO]: matt18990[/127.0.0.1:53034] logged in with entity id 166569 at ([world]-281.8646774748109, 82.0, -449.44561200330696)
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[00:54:28] [Server thread/ERROR]: Can't find any space for item in the inventory
+[01:14:58] [Async Chat Thread - #16/INFO]: <matt18990> village at 275 -275 but it only has one villager lmao
+[01:16:13] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[01:16:13] [Server thread/INFO]: matt18990 left the game
+[03:40:17] [User Authenticator #19/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[03:40:17] [Server thread/INFO]: matt18990[/127.0.0.1:55662] logged in with entity id 192458 at ([world]-361.54149732811953, 87.34605624841976, -352.51501958578314)
+[03:58:13] [Async Chat Thread - #17/INFO]: <Zortwil> ok
+[03:59:30] [Async Chat Thread - #18/INFO]: <Zortwil> wyd
+[03:59:33] [Async Chat Thread - #18/INFO]: <Zortwil> creeper farm?
+[03:59:39] [Async Chat Thread - #18/INFO]: <matt18990> general hostile mob farm
+[03:59:41] [Async Chat Thread - #18/INFO]: <matt18990> bit easier
+[03:59:43] [Async Chat Thread - #18/INFO]: <Zortwil> mm
+[03:59:46] [Async Chat Thread - #18/INFO]: <matt18990> wana fight wither
+[03:59:47] [Server thread/INFO]: matt18990 issued server command: /?
+[03:59:48] [Async Chat Thread - #18/INFO]: <Zortwil> ya
+[03:59:51] [Async Chat Thread - #18/INFO]: <matt18990> kk 2m
+[04:00:31] [Async Chat Thread - #18/INFO]: <Zortwil> do u have another smite sword
+[04:00:45] [Async Chat Thread - #18/INFO]: <matt18990> fuz
+[04:00:48] [Async Chat Thread - #18/INFO]: <matt18990> fuc
+[04:01:00] [Async Chat Thread - #18/INFO]: <Zortwil> disc?
+[04:01:10] [Async Chat Thread - #18/INFO]: <matt18990> sec
+[04:02:55] [Async Chat Thread - #19/INFO]: <Zortwil> got smite
+[04:03:23] [Async Chat Thread - #19/INFO]: <matt18990> try calling me on disc
+[04:03:33] [Async Chat Thread - #19/INFO]: <matt18990> shits busted but i might? be able to answer a call
+[04:03:50] [Async Chat Thread - #19/INFO]: <Zortwil> nop
+[04:03:53] [Async Chat Thread - #19/INFO]: <matt18990> wdym
+[04:03:59] [Async Chat Thread - #19/INFO]: <Zortwil> are u getting a call rn
+[04:04:02] [Async Chat Thread - #19/INFO]: <matt18990> nop
+[04:04:03] [Async Chat Thread - #19/INFO]: <matt18990> fuck
+[04:04:13] [Async Chat Thread - #19/INFO]: <Zortwil> is it doing the thing where u close it and it wont open
+[04:04:24] [Async Chat Thread - #19/INFO]: <matt18990> nah
+[04:04:31] [Async Chat Thread - #19/INFO]: <matt18990> cant x out of the whats new screen lmao
+[04:04:36] [Async Chat Thread - #19/INFO]: <Zortwil> oh lol
+[04:04:38] [Async Chat Thread - #19/INFO]: <matt18990> cant press any buttons
+[04:04:41] [Async Chat Thread - #19/INFO]: <Zortwil> uh
+[04:04:43] [Async Chat Thread - #19/INFO]: <Zortwil> zoom?
+[04:04:49] [Async Chat Thread - #19/INFO]: <matt18990> LOL
+[04:08:17] [Async Chat Thread - #20/INFO]: <matt18990> fna restart ig
+[04:08:20] [Async Chat Thread - #20/INFO]: <matt18990> fuck this computer
+[04:08:24] [Async Chat Thread - #20/INFO]: <Zortwil> just zoom tbh
+[04:08:28] [Async Chat Thread - #20/INFO]: <Zortwil> discord cpu usage is fucked
+[04:08:28] [Async Chat Thread - #20/INFO]: <matt18990> aigjt
+[04:08:37] [Async Chat Thread - #20/INFO]: <matt18990> u know how to start it?
+[04:08:40] [Async Chat Thread - #20/INFO]: <matt18990> bc idk
+[04:09:30] [Async Chat Thread - #20/INFO]: <Zortwil> yeah
+[04:09:34] [Async Chat Thread - #20/INFO]: <Zortwil> but ima make a non cal poly acc rq
+[04:10:13] [Async Chat Thread - #20/INFO]: <Zortwil> https://us04web.zoom.us/j/584622408?pwd=NmppcS9WTC94WkJuOXNaRk1GT09MQT09
+[04:10:37] [Async Chat Thread - #20/INFO]: <matt18990> send mess
+[04:10:44] [Async Chat Thread - #20/INFO]: <Zortwil> huh
+[04:10:46] [Async Chat Thread - #20/INFO]: <matt18990> messenger
+[04:10:51] [Async Chat Thread - #20/INFO]: <Zortwil> u can click
+[04:19:41] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[04:19:41] [Server thread/INFO]: matt18990 left the game
+[04:19:42] [User Authenticator #20/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[04:19:42] [Server thread/INFO]: matt18990[/127.0.0.1:56258] logged in with entity id 198370 at ([world]-377.489826464247, 76.5, -416.13749998807907)
+[04:23:35] [Server thread/INFO]: matt18990 has made the advancement [Withering Heights]
+[04:23:35] [Server thread/INFO]: Zortwil has made the advancement [Withering Heights]
+[04:30:35] [Server thread/INFO]: matt18990 has made the advancement [Bring Home the Beacon]
+[04:33:05] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[04:33:05] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[04:51:21] [Server thread/INFO]: Zortwil has made the advancement [Local Brewery]
+[05:59:59] [Server thread/INFO]: Villager EntityVillager['Villager'/180849, l='world', x=271.47, y=65.00, z=-251.77] died, message: 'Villager was slain by Zombie'
+[06:15:22] [Server thread/INFO]: Villager EntityVillager['Villager'/236720, l='world', x=-1211.23, y=72.00, z=-652.86] died, message: 'Villager was slain by Zombie'
+[06:15:41] [Server thread/INFO]: Villager EntityVillager['Villager'/236721, l='world', x=-1187.61, y=74.00, z=-659.12] died, message: 'Villager was slain by Zombie Villager'
+[06:16:27] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[06:16:27] [Server thread/INFO]: matt18990 left the game
+[06:16:30] [User Authenticator #21/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:16:30] [Server thread/INFO]: matt18990[/127.0.0.1:57906] logged in with entity id 237957 at ([world]-1220.1345201902789, 66.9375, -684.3044067060426)
+[06:31:41] [Server thread/INFO]: Zortwil was blown up by Creeper
+[06:32:00] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[06:32:00] [Server thread/INFO]: matt18990 left the game
+[06:32:07] [User Authenticator #22/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[06:32:07] [Server thread/INFO]: matt18990[/127.0.0.1:58158] logged in with entity id 243763 at ([world]-617.0520638101978, 74.0, -395.9490180120911)
+[06:34:56] [Async Chat Thread - #21/INFO]: <matt18990> got ur shit right
+[06:35:02] [Async Chat Thread - #21/INFO]: <Zortwil> almost
+[06:35:37] [Async Chat Thread - #21/INFO]: <matt18990> -600 -320 is sick
+[06:35:39] [Async Chat Thread - #21/INFO]: <matt18990> cool arch
+[06:35:45] [Async Chat Thread - #21/INFO]: <Zortwil> snap it
+[06:36:25] [Async Chat Thread - #21/INFO]: <matt18990> cant find a good angle
+[06:36:30] [Async Chat Thread - #21/INFO]: <matt18990> u kno u left the zoom call rigth
+[06:36:36] [Async Chat Thread - #21/INFO]: <Zortwil> ya
+[06:36:39] [Async Chat Thread - #21/INFO]: <Zortwil> boutta get off
+[06:36:51] [Async Chat Thread - #21/INFO]: <Zortwil> haven't spent enough hours lying in bed today
+[06:37:03] [Async Chat Thread - #21/INFO]: <matt18990> ur lying in bed while playing mc?
+[06:37:13] [Async Chat Thread - #21/INFO]: <Zortwil> no im getting off mc in a bit to lie in bed
+[06:37:20] [Async Chat Thread - #21/INFO]: <Zortwil> so not rejoining zoom
+[06:37:32] [Async Chat Thread - #21/INFO]: <matt18990> go tit
+[06:37:36] [Async Chat Thread - #21/INFO]: <Zortwil> go tits
+[06:37:45] [Async Chat Thread - #21/INFO]: <matt18990> jia you tits
+[06:38:23] [Async Chat Thread - #21/INFO]: <matt18990> -400 -377
+[06:38:40] [Async Chat Thread - #21/INFO]: <Zortwil> is
+[06:39:40] [Async Chat Thread - #22/INFO]: <matt18990> a skeleton horse lmao
+[06:40:43] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[06:40:44] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[06:40:44] [Server thread/WARN]: Skeleton Horse moved wrongly!
+[06:41:15] [Async Chat Thread - #23/INFO]: <Zortwil> ok back to afk
+[06:41:17] [Async Chat Thread - #23/INFO]: <Zortwil> cya
+[06:41:19] [Async Chat Thread - #23/INFO]: <matt18990> pce
+[06:47:04] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[06:47:04] [Server thread/INFO]: matt18990 left the game
+[07:18:26] [Server thread/INFO]: Zortwil lost connection: Timed out
+[07:18:26] [Server thread/INFO]: Zortwil left the game
+[07:55:56] [User Authenticator #23/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[07:55:56] [Server thread/INFO]: Zortwil[/127.0.0.1:59194] logged in with entity id 249112 at ([world]-367.4619531076486, 79.875, -412.5521564213497)
+[09:06:05] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:06:05] [Server thread/INFO]: Zortwil left the game
+[09:07:41] [User Authenticator #24/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:07:42] [Server thread/INFO]: Zortwil[/127.0.0.1:60098] logged in with entity id 261312 at ([world]-852.4641543477957, 48.0, -517.2940231377981)
+[10:43:53] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[10:43:53] [Server thread/INFO]: Zortwil left the game
+[10:51:28] [User Authenticator #25/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:51:28] [Server thread/INFO]: Zortwil[/127.0.0.1:33148] logged in with entity id 279856 at ([world]-854.5213111706325, 48.0, -522.7580829182366)
+[12:08:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[12:08:36] [Server thread/INFO]: Zortwil left the game
+[12:09:09] [User Authenticator #26/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[12:09:09] [Server thread/INFO]: Zortwil[/127.0.0.1:34106] logged in with entity id 290489 at ([world]-851.3107393200371, 49.0, -511.57795683822155)
+[12:26:59] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[12:26:59] [Server thread/INFO]: Zortwil left the game
+[17:27:29] [User Authenticator #27/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[17:27:29] [Server thread/INFO]: Zortwil[/127.0.0.1:38256] logged in with entity id 292422 at ([world]-850.7098278647288, 49.0, -510.63371110448594)
+[17:31:06] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[17:31:06] [Server thread/INFO]: Zortwil left the game
+[17:46:23] [User Authenticator #28/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[17:46:23] [Server thread/INFO]: Zortwil[/127.0.0.1:38452] logged in with entity id 293000 at ([world]-859.6999999880791, 43.0, -525.1104775261983)
+[17:47:28] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[17:47:28] [Server thread/INFO]: Zortwil left the game
+[17:48:53] [User Authenticator #29/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[17:48:53] [Server thread/INFO]: Zortwil[/127.0.0.1:38516] logged in with entity id 293363 at ([world]-854.8133883609066, 48.0, -520.6941954999169)
+[17:49:21] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[17:49:21] [Server thread/INFO]: Zortwil left the game
+[17:55:32] [User Authenticator #30/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[17:55:32] [Server thread/INFO]: Zortwil[/127.0.0.1:38594] logged in with entity id 293674 at ([world]-851.1178462141852, 49.0, -509.45922183698565)
+[19:18:37] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[19:18:37] [Server thread/INFO]: Zortwil left the game
+[19:19:11] [User Authenticator #31/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[19:19:11] [Server thread/INFO]: Zortwil[/127.0.0.1:39618] logged in with entity id 302447 at ([world]-848.2552329944853, 49.0, -512.9694369399036)
+[19:25:02] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[19:25:02] [Server thread/INFO]: Zortwil left the game
+[19:25:29] [User Authenticator #32/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[19:25:29] [Server thread/INFO]: Zortwil[/127.0.0.1:39754] logged in with entity id 303461 at ([world]-859.9384375248129, 49.0, -512.7319802586303)
+[19:34:56] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[19:34:56] [Server thread/INFO]: Zortwil left the game
+[19:35:45] [User Authenticator #33/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[19:35:45] [Server thread/INFO]: Zortwil[/127.0.0.1:39880] logged in with entity id 304866 at ([world]-856.7738690874897, 49.0, -509.59017582633476)
+[19:48:32] [Server thread/WARN]: Zortwil moved wrongly!
+[20:06:07] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:06:07] [Server thread/INFO]: Zortwil left the game
+[20:06:23] [User Authenticator #34/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:06:23] [Server thread/INFO]: Zortwil[/127.0.0.1:40276] logged in with entity id 311653 at ([world]-866.8255796709543, 49.0, -512.2678647291784)
+[20:06:32] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:06:32] [Server thread/INFO]: Zortwil left the game
+[20:06:45] [User Authenticator #35/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:06:45] [Server thread/INFO]: Zortwil[/127.0.0.1:40282] logged in with entity id 311940 at ([world]-858.2375000119209, 49.0, -512.3848085574026)
+[20:08:05] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:08:05] [Server thread/INFO]: Zortwil left the game
+[20:08:39] [User Authenticator #36/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:08:39] [Server thread/INFO]: Zortwil[/127.0.0.1:40288] logged in with entity id 312309 at ([world]-861.0237242780071, 52.0, -511.82617794560315)
+[20:53:20] [User Authenticator #37/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[20:53:20] [Server thread/INFO]: matt18990[/127.0.0.1:40868] logged in with entity id 317968 at ([world]-279.3382818904117, 82.0, -449.1679937252896)
+[20:53:35] [Async Chat Thread - #24/INFO]: <Zortwil> hi
+[20:53:38] [Async Chat Thread - #24/INFO]: <matt18990> yo
+[20:53:41] [Async Chat Thread - #24/INFO]: <matt18990> just finished class
+[20:53:44] [Async Chat Thread - #24/INFO]: <Zortwil> i made decent progress
+[20:53:45] [Async Chat Thread - #24/INFO]: <Zortwil> on ravine
+[20:53:53] [Async Chat Thread - #24/INFO]: <matt18990> oh fuc
+[20:53:58] [Async Chat Thread - #24/INFO]: <matt18990> any resources there?
+[20:54:04] [Async Chat Thread - #24/INFO]: <matt18990> like spawner or anything
+[20:54:07] [Async Chat Thread - #24/INFO]: <Zortwil> nah
+[20:54:18] [Async Chat Thread - #24/INFO]: <matt18990> f
+[20:54:19] [Async Chat Thread - #24/INFO]: <Zortwil> -850 -500 if u wanna see
+[20:55:01] [Async Chat Thread - #24/INFO]: <matt18990> aite i got 6 rockets for a round trip
+[20:55:03] [Async Chat Thread - #24/INFO]: <matt18990> lgi
+[20:55:08] [Async Chat Thread - #24/INFO]: <Zortwil> u can make it in 2
+[20:56:21] [Async Chat Thread - #25/INFO]: <matt18990> oh fuck i went to the wrong coords
+[20:56:30] [Async Chat Thread - #25/INFO]: <Zortwil> lmao headass
+[20:57:11] [Async Chat Thread - #25/INFO]: <matt18990> oh fuck
+[20:59:15] [Async Chat Thread - #26/INFO]: <matt18990> should i make mob spawner here or home?
+[20:59:24] [Async Chat Thread - #26/INFO]: <Zortwil> hmm
+[20:59:32] [Async Chat Thread - #26/INFO]: <Zortwil> is it under or above ground
+[20:59:36] [Async Chat Thread - #26/INFO]: <matt18990> abov
+[20:59:43] [Async Chat Thread - #26/INFO]: <Zortwil> prolly home?
+[20:59:45] [Async Chat Thread - #26/INFO]: <matt18990> kk
+[20:59:49] [Async Chat Thread - #26/INFO]: <Zortwil> its a 1 rocket flight
+[21:00:03] [Async Chat Thread - #26/INFO]: <Zortwil> did u yoink my rockets
+[21:00:04] [Async Chat Thread - #26/INFO]: <matt18990> u got a leak
+[21:00:09] [Async Chat Thread - #26/INFO]: <matt18990> idk how this happned
+[21:00:14] [Async Chat Thread - #26/INFO]: <Zortwil> aiya
+[21:00:24] [Async Chat Thread - #26/INFO]: <Zortwil> lmao
+[21:00:37] [Async Chat Thread - #26/INFO]: <matt18990> i lost it
+[21:01:17] [Async Chat Thread - #26/INFO]: <Zortwil> found
+[21:01:29] [Async Chat Thread - #26/INFO]: <Zortwil> lmao
+[21:01:35] [Async Chat Thread - #26/INFO]: <matt18990> damnit
+[21:01:45] [Async Chat Thread - #26/INFO]: <matt18990> ok were 450 300 right
+[21:01:47] [Async Chat Thread - #26/INFO]: <Zortwil> yea
+[21:01:51] [Async Chat Thread - #26/INFO]: <matt18990> ok pce
+[21:02:05] [Async Chat Thread - #26/INFO]: <Zortwil> no 300 450
+[21:02:37] [Async Chat Thread - #26/INFO]: <matt18990> aiya im mid flight
+[21:02:43] [Async Chat Thread - #26/INFO]: <Zortwil> (:
+[21:05:09] [Async Chat Thread - #27/INFO]: <matt18990> sleep log
+[21:05:13] [Async Chat Thread - #27/INFO]: <matt18990> pls
+[21:05:15] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:05:15] [Server thread/INFO]: Zortwil left the game
+[21:05:19] [User Authenticator #38/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:05:19] [Server thread/INFO]: Zortwil[/127.0.0.1:40992] logged in with entity id 320596 at ([world]-850.8570444203134, 49.0, -522.6744534427571)
+[21:05:20] [Async Chat Thread - #27/INFO]: <matt18990> ty
+[21:06:50] [Async Chat Thread - #28/INFO]: <Zortwil> also yeah def spawner at home if u want to make it soon
+[21:06:54] [Async Chat Thread - #28/INFO]: <Zortwil> bc no caves are lit by ravine yet
+[21:07:29] [Async Chat Thread - #28/INFO]: <matt18990> oh yeah u can just go to a platform rly high
+[21:07:42] [Async Chat Thread - #28/INFO]: <Zortwil> high doesn't help does it?
+[21:07:46] [Async Chat Thread - #28/INFO]: <matt18990> ya it does
+[21:07:48] [Async Chat Thread - #28/INFO]: <Zortwil> o rly
+[21:07:52] [Async Chat Thread - #28/INFO]: <matt18990> ith its a sphere around u
+[21:07:55] [Async Chat Thread - #28/INFO]: <Zortwil> ic
+[21:08:00] [Async Chat Thread - #28/INFO]: <Zortwil> thought it was just all loaded chunks
+[21:08:07] [Async Chat Thread - #28/INFO]: <matt18990> tbh not 100%
+[21:10:02] [Async Chat Thread - #29/INFO]: <Zortwil> oops i killed all the sheep in the animal hole
+[21:18:26] [Async Chat Thread - #30/INFO]: <matt18990> sleeplog real q
+[21:18:28] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:18:28] [Server thread/INFO]: Zortwil left the game
+[21:18:35] [User Authenticator #39/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:18:35] [Server thread/INFO]: Zortwil[/127.0.0.1:41186] logged in with entity id 324785 at ([world]-829.6356431630533, 56.0, -478.1991951657611)
+[21:19:18] [Async Chat Thread - #30/INFO]: <matt18990> ty
+[21:22:31] [Async Chat Thread - #31/INFO]: <Zortwil> smelting coal is just unfortunate
+[21:22:37] [Async Chat Thread - #31/INFO]: <matt18990> bro just fortune it
+[21:22:46] [Async Chat Thread - #31/INFO]: <matt18990> ??
+[21:22:53] [Async Chat Thread - #31/INFO]: <Zortwil> smol brain
+[21:22:55] [Async Chat Thread - #31/INFO]: <Zortwil> forgot i had a fortune
+[21:23:03] [Async Chat Thread - #31/INFO]: <matt18990> lmao
+[21:28:45] [Async Chat Thread - #32/INFO]: <Zortwil> brb
+[21:28:46] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:28:46] [Server thread/INFO]: Zortwil left the game
+[21:39:00] [User Authenticator #40/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:39:00] [Server thread/INFO]: Zortwil[/127.0.0.1:41452] logged in with entity id 329026 at ([world]-859.3338859097333, 42.0, -521.8063474408857)
+[21:39:19] [Async Chat Thread - #33/INFO]: <matt18990> all i wanted to do was spawnproof a lil cave
+[21:39:24] [Async Chat Thread - #33/INFO]: <matt18990> and ended up in a vast system
+[21:44:03] [Async Chat Thread - #34/INFO]: <Zortwil> well
+[21:44:05] [Async Chat Thread - #34/INFO]: <Zortwil> we need iron
+[21:44:26] [Async Chat Thread - #34/INFO]: <matt18990> ya i got a stack n a half
+[21:44:27] [Async Chat Thread - #34/INFO]: <matt18990> lmao
+[21:44:29] [Async Chat Thread - #34/INFO]: <Zortwil> nice
+[21:44:49] [Async Chat Thread - #34/INFO]: <Zortwil> what even needs to go in this base
+[21:44:57] [Async Chat Thread - #34/INFO]: <Zortwil> storage, mine ...?
+[21:45:12] [Async Chat Thread - #34/INFO]: <matt18990> uh
+[21:45:16] [Async Chat Thread - #34/INFO]: <matt18990> idk
+[21:45:17] [Async Chat Thread - #34/INFO]: <matt18990> basic farms?
+[21:45:25] [Async Chat Thread - #34/INFO]: <Zortwil> like
+[21:45:31] [Async Chat Thread - #34/INFO]: <matt18990> you wana have a reason to be there
+[21:45:36] [Async Chat Thread - #34/INFO]: <matt18990> otherwise you'll never go
+[21:45:37] [Async Chat Thread - #34/INFO]: <matt18990> yk
+[21:45:39] [Async Chat Thread - #34/INFO]: <Zortwil> ya
+[21:45:57] [Async Chat Thread - #34/INFO]: <Zortwil> brb ima watch some mc yt lol
+[21:45:58] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:45:58] [Server thread/INFO]: Zortwil left the game
+[21:50:19] [Async Chat Thread - #35/INFO]: <matt18990> mineshaft ravine -166 -472
+[21:51:20] [User Authenticator #41/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:51:20] [Server thread/INFO]: Zortwil[/127.0.0.1:41588] logged in with entity id 331780 at ([world]-855.3272726401337, 49.0, -511.388535074585)
+[21:51:27] [Async Chat Thread - #36/INFO]: <Zortwil> idk lmao
+[21:53:26] [Async Chat Thread - #37/INFO]: <matt18990> this fucking cave is so fucking big
+[21:53:32] [Async Chat Thread - #37/INFO]: <matt18990> i ended up in the big hole
+[21:53:41] [Async Chat Thread - #37/INFO]: <Zortwil> o nice
+[21:53:48] [Async Chat Thread - #37/INFO]: <Zortwil> how tf are there still unexplored caves near that
+[21:53:58] [Async Chat Thread - #37/INFO]: <matt18990> theres an entire mineshaft ravine
+[21:53:59] [Async Chat Thread - #37/INFO]: <matt18990> unlit
+[21:54:02] [Async Chat Thread - #37/INFO]: <Zortwil> o fuk
+[21:55:56] [Async Chat Thread - #38/INFO]: <Zortwil> can nether portals be any size now
+[21:56:16] [Async Chat Thread - #38/INFO]: <matt18990> as long as at leas 2x3
+[21:56:24] [Async Chat Thread - #38/INFO]: <matt18990> then ith
+[21:56:32] [Async Chat Thread - #38/INFO]: <Zortwil> kk
+[21:57:05] [Async Chat Thread - #38/INFO]: <Zortwil> idk what to build
+[21:57:09] [Async Chat Thread - #38/INFO]: <Zortwil> so ima just build a giant nether portal
+[21:57:13] [Async Chat Thread - #38/INFO]: <matt18990> watch the mumbo vid?
+[21:57:18] [Async Chat Thread - #38/INFO]: <Zortwil> o yea
+[21:57:30] [Async Chat Thread - #38/INFO]: <Zortwil> watched that half asleep
+[22:01:35] [Async Chat Thread - #39/INFO]: <Zortwil> 38
+[22:06:15] [Async Chat Thread - #40/INFO]: <Zortwil> what if
+[22:06:20] [Async Chat Thread - #40/INFO]: <Zortwil> we made an iron farm
+[22:07:50] [Async Chat Thread - #41/INFO]: <matt18990> d
+[22:07:54] [Async Chat Thread - #41/INFO]: <matt18990> new ones r ez
+[22:08:03] [Async Chat Thread - #41/INFO]: <Zortwil> rly
+[22:09:28] [Async Chat Thread - #42/INFO]: <Zortwil> i just found out u can sprint on elytras lol
+[22:09:43] [Async Chat Thread - #42/INFO]: <matt18990> can u sleep
+[22:09:47] [Async Chat Thread - #42/INFO]: <Zortwil> no
+[22:09:55] [Async Chat Thread - #42/INFO]: <Zortwil> uh
+[22:09:56] [Async Chat Thread - #42/INFO]: <Zortwil> yes
+[22:09:59] [Async Chat Thread - #42/INFO]: <Zortwil> in like a min
+[22:10:03] [Async Chat Thread - #42/INFO]: <matt18990> kk pls
+[22:11:09] [Async Chat Thread - #43/INFO]: <Zortwil> ok
+[22:11:13] [Async Chat Thread - #43/INFO]: <Zortwil> log?
+[22:11:17] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[22:11:17] [Server thread/INFO]: matt18990 left the game
+[22:11:19] [User Authenticator #42/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[22:11:19] [Server thread/INFO]: matt18990[/127.0.0.1:41844] logged in with entity id 337239 at ([world]-257.52029825356004, 101.0, -422.47960033600543)
+[22:11:21] [Async Chat Thread - #43/INFO]: <matt18990> ty
+[22:11:28] [Async Chat Thread - #43/INFO]: <Zortwil> i tried to make a bed with sticks
+[22:11:32] [Async Chat Thread - #43/INFO]: <matt18990> lmao
+[22:11:39] [Async Chat Thread - #43/INFO]: <matt18990> thats the mc recipe for tigers bed
+[22:11:51] [Async Chat Thread - #43/INFO]: <Zortwil> lmao
+[22:12:00] [Async Chat Thread - #43/INFO]: <Zortwil> tool_breaking.mp3
+[22:15:13] [Async Chat Thread - #44/INFO]: <matt18990> oh no
+[22:15:23] [Async Chat Thread - #44/INFO]: <matt18990> this farm might not work bc of ice biome
+[22:15:24] [Async Chat Thread - #44/INFO]: <matt18990> oh no
+[22:15:28] [Async Chat Thread - #44/INFO]: <Zortwil> shit seed
+[22:15:33] [Async Chat Thread - #44/INFO]: <Zortwil> why
+[22:15:44] [Async Chat Thread - #44/INFO]: <matt18990> water blocks solidify into ice
+[22:15:49] [Async Chat Thread - #44/INFO]: <Zortwil> o fuck
+[22:15:51] [Async Chat Thread - #44/INFO]: <Zortwil> and u cant have light
+[22:16:02] [Async Chat Thread - #44/INFO]: <Zortwil> see if anything else melts ice?
+[22:16:18] [Async Chat Thread - #44/INFO]: <matt18990> uhhh
+[22:17:09] [Async Chat Thread - #44/INFO]: <matt18990> mmm
+[22:17:11] [Async Chat Thread - #44/INFO]: <matt18990> might work still
+[22:17:13] [Async Chat Thread - #44/INFO]: <matt18990> we'll see
+[22:17:58] [Async Chat Thread - #44/INFO]: <Zortwil> uh oh
+[22:18:02] [Async Chat Thread - #44/INFO]: <Zortwil> portals are fucked
+[22:18:09] [Async Chat Thread - #44/INFO]: <Zortwil> ravines too close to home
+[22:18:24] [Async Chat Thread - #44/INFO]: <Zortwil> OH WAIT
+[22:18:38] [Async Chat Thread - #44/INFO]: <Zortwil> thats an insta tp to this base
+[22:18:51] [Async Chat Thread - #44/INFO]: <matt18990> ya u gotta line up the portals in the nether
+[22:18:57] [Async Chat Thread - #44/INFO]: <matt18990> look it up idk exactly how it work s
+[22:19:11] [Async Chat Thread - #44/INFO]: <Zortwil> ya rn if u go thru the portal from ravine it brings u back home
+[22:22:27] [Async Chat Thread - #45/INFO]: <matt18990> log?
+[22:22:33] [Async Chat Thread - #45/INFO]: <matt18990> sleep
+[22:22:34] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:22:34] [Server thread/INFO]: Zortwil left the game
+[22:22:39] [User Authenticator #43/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:22:39] [Server thread/INFO]: Zortwil[/127.0.0.1:41980] logged in with entity id 340148 at ([world]-817.6833831870341, 60.6999244161482, -471.5358276454612)
+[22:22:41] [Async Chat Thread - #45/INFO]: <matt18990> ty
+[22:29:29] [Async Chat Thread - #46/INFO]: <Zortwil> holy fuck
+[22:29:36] [Async Chat Thread - #46/INFO]: <Zortwil> big nether portals
+[22:29:45] [Async Chat Thread - #46/INFO]: <matt18990> lmao
+[22:30:00] [Async Chat Thread - #46/INFO]: <Zortwil> made one like 8 x 15
+[22:33:28] [Async Chat Thread - #47/INFO]: <matt18990> log
+[22:33:42] [Async Chat Thread - #47/INFO]: <matt18990> log pls
+[22:33:46] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:33:46] [Server thread/INFO]: Zortwil left the game
+[22:33:53] [User Authenticator #44/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:33:53] [Server thread/INFO]: Zortwil[/127.0.0.1:42104] logged in with entity id 343196 at ([world]-864.1353000831596, 49.0, -509.7791995458548)
+[22:33:56] [Async Chat Thread - #47/INFO]: <matt18990> than,
+[22:33:59] [Async Chat Thread - #47/INFO]: <Zortwil> how tf it get night so fast
+[22:37:58] [Async Chat Thread - #48/INFO]: <matt18990> boy am i not gna finish this before class
+[22:38:07] [Async Chat Thread - #48/INFO]: <Zortwil> lmao what else u got today
+[22:38:17] [Async Chat Thread - #48/INFO]: <matt18990> 4-6
+[22:38:22] [Async Chat Thread - #48/INFO]: <Zortwil> mm
+[22:44:56] [Async Chat Thread - #49/INFO]: <matt18990> log pls
+[22:45:00] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:45:00] [Server thread/INFO]: Zortwil left the game
+[22:45:05] [User Authenticator #45/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:45:05] [Server thread/INFO]: Zortwil[/127.0.0.1:42238] logged in with entity id 347086 at ([world]-849.5174113750692, 54.0, -544.0168325241497)
+[22:52:51] [Async Chat Thread - #50/INFO]: <matt18990> ok ill come back to this after class lmao
+[22:52:55] [Async Chat Thread - #50/INFO]: <Zortwil> kk
+[22:53:38] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[22:53:38] [Server thread/INFO]: matt18990 left the game
+[23:24:10] [Server thread/WARN]: Zortwil was kicked for floating too long!
+[23:24:10] [Server thread/INFO]: Zortwil lost connection: Flying is not enabled on this server
+[23:24:10] [Server thread/INFO]: Zortwil left the game
+[23:24:14] [User Authenticator #46/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[23:24:14] [Server thread/INFO]: Zortwil[/127.0.0.1:42752] logged in with entity id 353195 at ([world]-867.700000025332, 49.01357310483356, -515.700000025332)
+[23:54:30] [Async Chat Thread - #51/INFO]: <Zortwil> -853 -519
+[00:32:28] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:32:28] [Server thread/INFO]: Zortwil left the game
+[00:33:55] [User Authenticator #47/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:33:55] [Server thread/INFO]: Zortwil[/127.0.0.1:43638] logged in with entity id 362167 at ([world]-848.3391111763298, 49.0, -528.8084329175475)
+[01:08:30] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[01:08:30] [Server thread/INFO]: Zortwil left the game
+[01:08:32] [User Authenticator #48/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:08:32] [Server thread/INFO]: Zortwil[/127.0.0.1:44034] logged in with entity id 365703 at ([world]-283.2636868062323, 80.0, -464.9558166334253)
+[01:24:49] [Server thread/WARN]: Zortwil was kicked for floating too long!
+[01:24:49] [Server thread/INFO]: Zortwil lost connection: Flying is not enabled on this server
+[01:24:49] [Server thread/INFO]: Zortwil left the game
+[01:24:53] [User Authenticator #49/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:24:53] [Server thread/INFO]: Zortwil[/127.0.0.1:44228] logged in with entity id 370345 at ([world]-850.4188583615336, 49.0, -527.2112203997056)
+[01:29:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[01:29:36] [Server thread/INFO]: Zortwil left the game
+[02:20:02] [User Authenticator #50/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[02:20:02] [Server thread/INFO]: Zortwil[/127.0.0.1:44922] logged in with entity id 371055 at ([world]-850.1721371720723, 48.0, -518.5016107483008)
+[02:26:12] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[02:26:12] [Server thread/INFO]: Zortwil left the game
+[02:29:09] [User Authenticator #51/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[02:29:10] [Server thread/INFO]: Zortwil[/127.0.0.1:45058] logged in with entity id 372047 at ([world]-811.7924232622495, 63.0, -471.69999998807907)
+[04:21:25] [User Authenticator #52/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[04:21:25] [Server thread/INFO]: matt18990[/127.0.0.1:46518] logged in with entity id 392815 at ([world]-285.2413791627429, 81.0, -458.19086685236766)
+[04:24:04] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:24:04] [Server thread/INFO]: Zortwil left the game
+[04:24:20] [User Authenticator #53/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:24:20] [Server thread/INFO]: Zortwil[/127.0.0.1:46524] logged in with entity id 393997 at ([world]-256.52827743685737, 133.0, -423.60322270678006)
+[04:35:29] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:35:29] [Server thread/INFO]: Zortwil left the game
+[04:35:33] [User Authenticator #54/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:35:34] [Server thread/INFO]: Zortwil[/127.0.0.1:46676] logged in with entity id 396142 at ([world]-251.4946382490853, 132.5, -407.1970049512806)
+[04:35:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:35:36] [Server thread/INFO]: Zortwil left the game
+[04:35:48] [User Authenticator #55/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:35:48] [Server thread/INFO]: Zortwil[/127.0.0.1:46680] logged in with entity id 396168 at ([world]-251.4946382490853, 132.5, -407.1970049512806)
+[04:47:45] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:47:45] [Server thread/INFO]: Zortwil left the game
+[04:47:48] [User Authenticator #56/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:47:48] [Server thread/INFO]: Zortwil[/127.0.0.1:46908] logged in with entity id 398300 at ([world]-321.9415448507993, 70.0, -369.7387430769547)
+[05:01:17] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[05:01:17] [Server thread/INFO]: matt18990 left the game
+[05:01:26] [User Authenticator #57/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[05:01:26] [Server thread/INFO]: matt18990[/127.0.0.1:47068] logged in with entity id 400868 at ([world]-247.8729265993072, 109.0, -422.07842625183696)
+[05:08:13] [Async Chat Thread - #52/INFO]: <Zortwil> 1
+[05:08:15] [Async Chat Thread - #52/INFO]: <Zortwil> 2
+[05:08:26] [Async Chat Thread - #52/INFO]: <Zortwil> 3
+[05:08:35] [Async Chat Thread - #52/INFO]: <Zortwil> 4
+[05:14:27] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:14:27] [Server thread/INFO]: Zortwil left the game
+[05:14:35] [User Authenticator #58/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:14:35] [Server thread/INFO]: Zortwil[/127.0.0.1:47298] logged in with entity id 403133 at ([world]-248.69884978229265, 101.43464956214038, -435.2678492277458)
+[05:36:46] [Async Chat Thread - #53/INFO]: <Zortwil> sec
+[05:51:53] [Server thread/WARN]: Zortwil moved wrongly!
+[06:08:26] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[06:08:26] [Server thread/INFO]: Zortwil left the game
+[06:08:34] [User Authenticator #59/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:08:34] [Server thread/INFO]: Zortwil[/127.0.0.1:48056] logged in with entity id 416205 at ([world]-296.74142673516764, 71.0, -441.3288573802491)
+[06:21:28] [Async Chat Thread - #54/INFO]: <matt18990> -246 -424
+[06:48:12] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[06:48:12] [Server thread/INFO]: Zortwil left the game
+[07:27:59] [User Authenticator #60/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[07:27:59] [Server thread/INFO]: Zortwil[/127.0.0.1:49116] logged in with entity id 435125 at ([world]-283.6902322761333, 82.0, -451.3349357927115)
+[08:08:33] [Async Chat Thread - #55/INFO]: <matt18990> whats the coords to that one village
+[08:09:15] [Async Chat Thread - #55/INFO]: <Zortwil> sec
+[08:09:24] [Async Chat Thread - #55/INFO]: <Zortwil> -1200 -700
+[08:09:30] [Async Chat Thread - #55/INFO]: <matt18990> ty
+[08:09:45] [Async Chat Thread - #55/INFO]: <Zortwil> i broke the water elevator again
+[08:09:55] [Async Chat Thread - #55/INFO]: <matt18990> headass
+[08:46:56] [Server thread/INFO]: Zortwil lost connection: Timed out
+[08:46:56] [Server thread/INFO]: Zortwil left the game
+[08:47:37] [User Authenticator #61/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:47:37] [Server thread/INFO]: Zortwil[/127.0.0.1:50076] logged in with entity id 454014 at ([world]-365.3631879680597, 79.875, -412.52214988140315)
+[09:23:13] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[09:23:13] [Server thread/INFO]: matt18990 left the game
+[20:44:58] [Server thread/INFO]: Zortwil lost connection: Timed out
+[20:44:58] [Server thread/INFO]: Zortwil left the game
+[21:02:29] [User Authenticator #62/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:02:29] [Server thread/INFO]: Zortwil[/127.0.0.1:59556] logged in with entity id 541006 at ([world]-245.69999998807907, 197.0, -423.3094752186078)
+[21:49:56] [Server thread/WARN]: Zortwil moved wrongly!
+[21:54:47] [Server thread/WARN]: Zortwil moved wrongly!
+[22:35:10] [Server thread/WARN]: Zortwil moved wrongly!
+[00:12:29] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:12:29] [Server thread/INFO]: Zortwil left the game
+[00:12:31] [User Authenticator #63/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:12:31] [Server thread/INFO]: Zortwil[/127.0.0.1:33912] logged in with entity id 572385 at ([world]-1245.5646051379704, 64.27544535024339, -669.2736953413919)
+[00:25:01] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:25:01] [Server thread/INFO]: Zortwil left the game
+[00:26:29] [User Authenticator #64/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:26:29] [Server thread/INFO]: Zortwil[/127.0.0.1:34226] logged in with entity id 575087 at ([world]-367.761333944609, 80.0, -416.8952598938291)
+[00:26:44] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:26:44] [Server thread/INFO]: Zortwil left the game
+[00:27:03] [User Authenticator #65/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:27:03] [Server thread/INFO]: Zortwil[/127.0.0.1:34234] logged in with entity id 575287 at ([world]-367.761333944609, 80.0, -416.8952598938291)
+[00:40:24] [User Authenticator #66/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[00:40:24] [Server thread/INFO]: matt18990[/127.0.0.1:34446] logged in with entity id 576748 at ([world]-247.49526185893237, 198.0, -425.59818526123644)
+[00:40:32] [Server thread/INFO]: matt18990 issued server command: /seed
+[00:40:44] [Server thread/INFO]: matt18990 issued server command: /op
+[00:40:46] [Server thread/INFO]: matt18990 issued server command: /help
+[00:40:48] [Server thread/INFO]: matt18990 issued server command: /help 2
+[00:40:56] [Server thread/INFO]: matt18990 issued server command: /version
+[00:41:10] [Server thread/INFO]: matt18990 issued server command: /help bukkit
+[00:41:22] [Server thread/INFO]: matt18990 issued server command: /me
+[00:41:27] [Server thread/INFO]: matt18990 issued server command: /me
+[00:41:54] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[00:41:54] [Server thread/INFO]: matt18990 left the game
+[03:15:57] [Server thread/INFO]: Zortwil issued server command: /seed
+[03:44:48] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[03:44:48] [Server thread/INFO]: Zortwil left the game
+[03:55:05] [User Authenticator #67/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[03:55:05] [Server thread/INFO]: Zortwil[/127.0.0.1:38116] logged in with entity id 599211 at ([world]-851.6932905009081, 49.0, -509.34503472073004)
+[04:06:14] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:06:14] [Server thread/INFO]: Zortwil left the game
+[04:13:16] [User Authenticator #68/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:13:16] [Server thread/INFO]: Zortwil[/127.0.0.1:38482] logged in with entity id 602352 at ([world]-849.3559353173449, 49.5, -501.90525547289394)
+[04:14:53] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:14:53] [Server thread/INFO]: Zortwil left the game
+[04:24:04] [User Authenticator #69/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:24:05] [Server thread/INFO]: Zortwil[/127.0.0.1:38692] logged in with entity id 603153 at ([world]-816.0642390828428, 64.0, -475.8968868625149)
+[04:28:40] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:28:40] [Server thread/INFO]: Zortwil left the game
+[04:58:10] [User Authenticator #70/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[04:58:10] [Server thread/INFO]: Zortwil[/127.0.0.1:39320] logged in with entity id 604181 at ([world]-853.7381251985402, 49.0, -518.6151231023322)
+[04:58:16] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:58:16] [Server thread/INFO]: Zortwil left the game
+[05:37:26] [User Authenticator #71/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:37:26] [Server thread/INFO]: Zortwil[/127.0.0.1:40158] logged in with entity id 604544 at ([world]-854.1301404728575, 49.0, -513.7254605184869)
+[05:37:42] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:37:42] [Server thread/INFO]: Zortwil left the game
+[06:07:34] [Thread-2/INFO]: Stopping server
+[06:07:34] [Thread-2/INFO]: Saving players
+[06:07:35] [Thread-2/INFO]: Saving worlds
+[06:07:35] [Thread-2/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:07:35] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:07:35] [Thread-2/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[06:07:35] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:07:35] [Thread-2/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[06:07:35] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:07:35] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:07:40] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:07:41] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
