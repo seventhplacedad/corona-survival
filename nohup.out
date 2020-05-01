@@ -38594,3 +38594,537 @@ java.io.IOException: Bad file descriptor
 [05:53:57] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [05:54:02] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
 [05:54:03] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+Loading libraries, please wait...
+[05:59:12] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[05:59:12] [Server thread/INFO]: Loading properties
+[05:59:12] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_242]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_242]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:105) [spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+[05:59:12] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-6de3d4b-a6f8093 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[05:59:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:59:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:59:13] [Server thread/INFO]: Debug logging is disabled
+[05:59:13] [Server thread/INFO]: Default game type: SURVIVAL
+[05:59:13] [Server thread/INFO]: Generating keypair
+[05:59:14] [Server thread/INFO]: Starting Minecraft server on *:4000
+[05:59:14] [Server thread/INFO]: Using epoll channel type
+[05:59:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:59:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:59:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:59:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:59:14] [Server thread/INFO]: Preparing level "world"
+[05:59:14] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[05:59:15] [Server thread/INFO]: Loaded 6 recipes
+[05:59:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[05:59:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:59:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:59:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[05:59:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:59:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[05:59:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[05:59:16] [Server thread/INFO]: Max TNT Explosions: 100
+[05:59:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:59:16] [Server thread/INFO]: Mob Spawn Range: 6
+[05:59:16] [Server thread/INFO]: View Distance: 14
+[05:59:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:59:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:59:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:59:16] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:59:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:59:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:59:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[05:59:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:59:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[05:59:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:59:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[05:59:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[05:59:17] [Server thread/INFO]: Max TNT Explosions: 100
+[05:59:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:59:17] [Server thread/INFO]: Mob Spawn Range: 6
+[05:59:17] [Server thread/INFO]: View Distance: 14
+[05:59:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:59:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:59:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:59:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:59:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:59:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:59:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[05:59:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Potato Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Vine Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[05:59:17] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:59:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[05:59:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:59:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[05:59:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[05:59:17] [Server thread/INFO]: Max TNT Explosions: 100
+[05:59:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:59:17] [Server thread/INFO]: Mob Spawn Range: 6
+[05:59:17] [Server thread/INFO]: View Distance: 14
+[05:59:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:59:17] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:59:17] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:59:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[05:59:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:59:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:59:26] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[05:59:28] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:28] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:28] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:28] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:28] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:29] [Server thread/INFO]: Preparing spawn area: 71%
+[05:59:29] [Server thread/INFO]: Time elapsed: 2643 ms
+[05:59:29] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[05:59:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:30] [Server thread/INFO]: Time elapsed: 860 ms
+[05:59:30] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[05:59:30] [Server thread/INFO]: Preparing spawn area: 0%
+[05:59:30] [Server thread/INFO]: Time elapsed: 353 ms
+[05:59:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:59:30] [Server thread/INFO]: Done (16.001s)! For help, type "help"
+[05:59:30] [Server thread/INFO]: Starting remote control listener
+[05:59:30] [RCON Listener #1/INFO]: RCON running on 0.0.0.0:4001
+[21:14:08] [User Authenticator #1/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:14:09] [Server thread/INFO]: Zortwil[/127.0.0.1:36906] logged in with entity id 201 at ([world]-852.5823694993768, 48.0, -522.6969560185823)
+[21:17:14] [Server thread/WARN]: Zortwil moved too quickly! -7.327110694976682,-28.455416638733766,-1.6926713568926175
+[21:19:38] [Server thread/WARN]: Zortwil moved wrongly!
+[21:28:15] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:28:15] [Server thread/INFO]: Zortwil left the game
+[22:48:20] [User Authenticator #2/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:48:20] [Server thread/INFO]: Zortwil[/127.0.0.1:37996] logged in with entity id 3773 at ([world]-833.0702974242619, 50.0, -481.6941398343322)
+[22:48:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:48:36] [Server thread/INFO]: Zortwil left the game
+[23:17:25] [User Authenticator #3/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[23:17:26] [Server thread/INFO]: Zortwil[/127.0.0.1:38364] logged in with entity id 4137 at ([world]-842.7831039709854, 48.0, -495.7481694663481)
+[23:17:54] [Server thread/INFO]: Villager EntityVillager['Villager'/4275, l='world', x=-883.30, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[23:18:52] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[23:18:52] [Server thread/INFO]: Zortwil left the game
+[23:55:05] [User Authenticator #4/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[23:55:05] [Server thread/INFO]: Zortwil[/127.0.0.1:38828] logged in with entity id 5012 at ([world]-848.2243141813825, 49.0, -501.55014069980876)
+[00:03:40] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:03:40] [Server thread/INFO]: Zortwil left the game
+[01:35:13] [User Authenticator #5/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:35:13] [Server thread/INFO]: Zortwil[/127.0.0.1:40098] logged in with entity id 8696 at ([world]-279.86835749170524, 11.0, -454.82648536992184)
+[01:40:37] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[01:40:37] [Server thread/INFO]: Zortwil left the game
+[06:59:14] [User Authenticator #6/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:59:14] [Server thread/INFO]: Zortwil[/127.0.0.1:45694] logged in with entity id 10516 at ([world]-809.2440813897168, 76.5, -424.3660526371455)
+[07:02:37] [Server thread/INFO]: Villager EntityVillager['Villager'/11233, l='world', x=-883.70, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[07:07:29] [Async Chat Thread - #0/INFO]: <Zortwil> -255 3
+[07:13:44] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[07:13:44] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[07:18:18] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[07:18:18] [Server thread/INFO]: Zortwil left the game
+[07:19:11] [User Authenticator #7/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[07:19:11] [Server thread/INFO]: Zortwil[/127.0.0.1:46094] logged in with entity id 16543 at ([world_the_end]0.44079604984158194, 61.0, 0.42295660241154787)
+[07:19:50] [Async Chat Thread - #1/INFO]: <Zortwil> .
+[07:22:10] [Server thread/WARN]: Zortwil moved too quickly! 2138.1244248083885,12.1875,-10.679963569550505
+[07:28:32] [Server thread/INFO]: Villager EntityVillager['Villager'/18323, l='world', x=-883.30, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[07:53:32] [Server thread/INFO]: Villager EntityVillager['Villager'/18317, l='world', x=-883.70, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
+[07:55:38] [Server thread/WARN]: Zortwil moved wrongly!
+[07:59:01] [Server thread/INFO]: Villager EntityVillager['Villager'/18313, l='world', x=-883.70, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[08:05:54] [Server thread/INFO]: Villager EntityVillager['Villager'/18315, l='world', x=-883.30, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
+[08:11:40] [Server thread/INFO]: Villager EntityVillager['Villager'/18310, l='world', x=-883.30, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
+[08:16:05] [Async Chat Thread - #2/INFO]: <Zortwil> .
+[08:16:06] [Async Chat Thread - #2/INFO]: <Zortwil> .
+[08:16:07] [Async Chat Thread - #2/INFO]: <Zortwil> .
+[08:23:41] [Server thread/WARN]: Zortwil moved too quickly! -12.101731199983305,-0.41795003277592,16.31157180791513
+[08:23:42] [Server thread/WARN]: Zortwil moved too quickly! -12.119798596497276,-0.41795003277592,16.360322802697453
+[08:23:42] [Server thread/WARN]: Zortwil moved too quickly! -12.176258523850606,-0.41795003277592,16.440424469397158
+[08:45:21] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[08:45:21] [Server thread/INFO]: Zortwil left the game
+[10:08:11] [User Authenticator #8/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:08:11] [Server thread/INFO]: Zortwil[/127.0.0.1:49198] logged in with entity id 52717 at ([world]-763.8889113914125, 82.0, -355.5210532032744)
+[10:10:43] [Server thread/INFO]: Villager EntityVillager['Villager'/52986, l='world', x=-883.30, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
+[10:20:04] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[10:20:04] [Server thread/INFO]: Zortwil left the game
+[20:06:39] [User Authenticator #9/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:06:40] [Server thread/INFO]: Zortwil[/127.0.0.1:60904] logged in with entity id 54832 at ([world]-851.530700350261, 49.5, -505.60296697046215)
+[20:06:59] [Async Chat Thread - #3/INFO]: <Zortwil> .
+[20:09:05] [Server thread/INFO]: Villager EntityVillager['Villager'/54909, l='world', x=-883.30, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[20:12:28] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:12:28] [Server thread/INFO]: Zortwil left the game
+[20:18:43] [User Authenticator #10/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:18:43] [Server thread/INFO]: Zortwil[/127.0.0.1:32850] logged in with entity id 55839 at ([world]-859.5357022788626, 49.0, -509.55821702593016)
+[20:25:04] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:25:04] [Server thread/INFO]: Zortwil left the game
+[20:39:27] [User Authenticator #11/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:39:27] [Server thread/INFO]: Zortwil[/127.0.0.1:33214] logged in with entity id 58012 at ([world]-836.6254287380343, 50.0, -484.7952399052132)
+[20:39:42] [Server thread/WARN]: Zortwil moved too quickly! 8.323412645393546,8.037534501827714,14.873722810508127
+[20:53:14] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:53:14] [Server thread/INFO]: Zortwil left the game
+[21:10:02] [User Authenticator #12/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:10:02] [Server thread/INFO]: Zortwil[/127.0.0.1:33950] logged in with entity id 62347 at ([world]-784.8401387784656, 82.0, -355.1636253776943)
+[21:31:49] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:31:49] [Server thread/INFO]: Zortwil left the game
+[21:33:15] [User Authenticator #13/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:33:15] [Server thread/INFO]: Zortwil[/127.0.0.1:34466] logged in with entity id 82320 at ([world]-993.3092655856623, 61.81394058829383, -1303.542734439256)
+[21:33:18] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:33:18] [Server thread/INFO]: Zortwil left the game
+[21:34:02] [User Authenticator #14/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:34:02] [Server thread/INFO]: Zortwil[/127.0.0.1:34470] logged in with entity id 82604 at ([world]-994.8905241125128, 62.147724866665044, -1301.5389877085247)
+[21:40:12] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:40:12] [Server thread/INFO]: Zortwil left the game
+[02:01:16] [User Authenticator #15/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[02:01:16] [Server thread/INFO]: matt18990[/127.0.0.1:40062] logged in with entity id 87617 at ([world]-278.8487924341949, 72.0, -423.13230990976115)
+[02:31:33] [Server thread/INFO]: Villager EntityVillager['dumbass'/91976, l='world', x=-866.50, y=48.19, z=-533.70] died, message: 'dumbass was slain by dumbass'
+[02:39:17] [Server thread/INFO]: Villager EntityVillager['dumbass'/94929, l='world', x=-864.50, y=48.19, z=-533.70] died, message: 'dumbass was slain by dumbass'
+[02:59:40] [Server thread/INFO]: Villager EntityVillager['Villager'/94951, l='world', x=-883.30, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[03:05:02] [Server thread/INFO]: Villager EntityVillager['Villager'/94944, l='world', x=-883.70, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[03:09:22] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[03:09:22] [Server thread/INFO]: matt18990 left the game
+[03:32:00] [User Authenticator #16/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[03:32:00] [Server thread/INFO]: Zortwil[/127.0.0.1:42082] logged in with entity id 99300 at ([world]388.4817229447012, 63.0, -1818.4433403157918)
+[03:43:56] [Server thread/INFO]: Villager EntityVillager['Villager'/102278, l='world', x=-885.70, y=52.96, z=-532.30] died, message: 'Villager drowned'
+[03:51:30] [Server thread/INFO]: Villager EntityVillager['Villager'/102307, l='world', x=-883.30, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
+[03:57:01] [Server thread/INFO]: Villager EntityVillager['Villager'/102285, l='world', x=-883.70, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[04:03:03] [Server thread/INFO]: Villager EntityVillager['Villager'/102279, l='world', x=-883.70, y=53.00, z=-532.70] died, message: 'Villager was squished too much'
+[04:03:41] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[04:03:41] [Server thread/INFO]: Zortwil left the game
+[05:05:58] [User Authenticator #17/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:05:58] [Server thread/INFO]: Zortwil[/127.0.0.1:44042] logged in with entity id 107845 at ([world]-782.6724800576867, 82.0, -378.4439675499702)
+[05:54:08] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:54:08] [Server thread/INFO]: Zortwil left the game
+[09:01:23] [User Authenticator #18/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:01:23] [Server thread/INFO]: Zortwil[/127.0.0.1:48746] logged in with entity id 114643 at ([world]-763.8153087362379, 105.0, -348.0573717543191)
+[09:03:24] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:03:24] [Server thread/INFO]: Zortwil left the game
+[09:06:17] [User Authenticator #19/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:06:17] [Server thread/INFO]: Zortwil[/127.0.0.1:48848] logged in with entity id 115358 at ([world]-835.2666141186224, 50.0, -484.95088017142496)
+[09:06:40] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:06:40] [Server thread/INFO]: Zortwil left the game
+[09:06:42] [User Authenticator #20/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:06:42] [Server thread/INFO]: Zortwil[/127.0.0.1:48852] logged in with entity id 115730 at ([world]-815.723012788869, 61.575445827673576, -470.29563455383476)
+[09:08:33] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:08:33] [Server thread/INFO]: Zortwil left the game
+[09:12:05] [User Authenticator #21/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:12:05] [Server thread/INFO]: Zortwil[/127.0.0.1:48958] logged in with entity id 118895 at ([world]-850.6999999880791, 49.0, -500.106045482445)
+[09:13:10] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:13:10] [Server thread/INFO]: Zortwil left the game
+[09:14:50] [User Authenticator #22/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:14:51] [Server thread/INFO]: Zortwil[/127.0.0.1:48964] logged in with entity id 119343 at ([world]-852.300297479458, 49.0, -508.01946839136355)
+[09:17:36] [Server thread/INFO]: Villager EntityVillager['dumbass'/119548, l='world', x=-806.87, y=76.00, z=-423.35] died, message: 'dumbass was shot by Zortwil'
+[09:17:44] [Server thread/INFO]: Villager EntityVillager['dumbass'/119547, l='world', x=-811.45, y=62.49, z=-422.39] died, message: 'dumbass was shot by Zortwil'
+[09:18:06] [Server thread/INFO]: Zortwil has made the advancement [Hot Stuff]
+[09:18:30] [Server thread/ERROR]: Block at -817, 62, -434 is Block{minecraft:water} but has net.minecraft.server.v1_15_R1.TileEntityChest@507a92f8. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[09:18:30] [Server thread/ERROR]: Block at -817, 62, -433 is Block{minecraft:water} but has net.minecraft.server.v1_15_R1.TileEntityChest@39f36c85. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[09:26:32] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:26:32] [Server thread/INFO]: Zortwil left the game
+[09:26:33] [User Authenticator #23/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:26:33] [Server thread/INFO]: Zortwil[/127.0.0.1:49254] logged in with entity id 121747 at ([world]-810.0363986501563, 62.0, -419.834030223196)
+[09:28:18] [Async Chat Thread - #4/INFO]: <Zortwil> 32 -256
+[09:39:30] [Server thread/WARN]: Zortwil moved wrongly!
+[09:48:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[09:48:36] [Server thread/INFO]: Zortwil left the game
+[09:54:04] [User Authenticator #24/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[09:54:04] [Server thread/INFO]: Zortwil[/127.0.0.1:49756] logged in with entity id 128571 at ([world]29.58590819823496, 73.0, -258.28269271737497)
+[10:12:10] [Async Chat Thread - #5/INFO]: <Zortwil> .
+[10:13:27] [Server thread/INFO]: Villager EntityVillager['Villager'/130737, l='world', x=-883.70, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
+[10:29:01] [Server thread/INFO]: Villager EntityVillager['Cartographer'/134132, l='world_nether', x=-4.47, y=128.00, z=-33.73] died, message: 'Cartographer was slain by Zortwil'
+[10:30:55] [Server thread/INFO]: Villager EntityVillager['Cartographer'/134687, l='world_nether', x=-5.45, y=128.00, z=-34.25] died, message: 'Cartographer was slain by Zortwil'
+[10:32:10] [Server thread/INFO]: Villager EntityVillager['Cartographer'/135273, l='world_nether', x=-102.41, y=128.06, z=-66.50] died, message: 'Cartographer suffocated in a wall'
+[10:33:54] [Server thread/INFO]: Villager EntityVillager['Cartographer'/135796, l='world_nether', x=-102.37, y=128.06, z=-66.50] died, message: 'Cartographer suffocated in a wall'
+[10:36:11] [Server thread/INFO]: Villager EntityVillager['Villager'/136328, l='world_nether', x=-106.30, y=128.00, z=-66.50] died, message: 'Villager suffocated in a wall'
+[10:38:27] [Server thread/INFO]: Villager EntityVillager['Cartographer'/137020, l='world', x=-863.75, y=49.00, z=-531.17] died, message: 'Cartographer was slain by Zortwil'
+[10:52:13] [Server thread/INFO]: Villager EntityVillager['Villager'/140074, l='world_nether', x=-112.25, y=128.00, z=-71.57] died, message: 'Villager was slain by Zortwil'
+[10:56:41] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[10:56:41] [Server thread/INFO]: Zortwil left the game
+[10:56:42] [User Authenticator #25/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:56:43] [Server thread/INFO]: Zortwil[/127.0.0.1:50880] logged in with entity id 140962 at ([world_nether]-2.963940125117398, 128.0, -36.78201034290255)
+[11:01:09] [Server thread/INFO]: Villager EntityVillager['Villager'/139484, l='world_nether', x=4.21, y=129.00, z=-32.41] died, message: 'Villager was slain by Zortwil'
+[11:28:35] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[11:28:35] [Server thread/INFO]: Zortwil left the game
+[11:33:11] [User Authenticator #26/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[11:33:11] [Server thread/INFO]: Zortwil[/127.0.0.1:51582] logged in with entity id 145142 at ([world]40.97219829007357, 74.0, -251.9047692869085)
+[11:33:39] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[11:33:39] [Server thread/INFO]: Zortwil left the game
+[11:35:05] [User Authenticator #27/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[11:35:05] [Server thread/INFO]: Zortwil[/127.0.0.1:51684] logged in with entity id 145205 at ([world]40.13286572083716, 74.0, -251.5746025205806)
+[11:39:06] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[11:39:06] [Server thread/INFO]: Zortwil left the game
+[12:02:26] [User Authenticator #28/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[12:02:26] [Server thread/INFO]: Zortwil[/127.0.0.1:52178] logged in with entity id 145944 at ([world]36.673377502673944, 73.0, -253.69616603229932)
+[12:02:35] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[12:02:35] [Server thread/INFO]: Zortwil left the game
+[18:40:15] [User Authenticator #29/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[18:40:15] [Server thread/INFO]: Zortwil[/127.0.0.1:60238] logged in with entity id 148960 at ([world]37.3382323089842, 75.0, -251.24160265508078)
+[18:40:54] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[18:40:54] [Server thread/INFO]: Zortwil left the game
+[20:11:06] [User Authenticator #30/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:11:06] [Server thread/INFO]: Zortwil[/127.0.0.1:34204] logged in with entity id 149041 at ([world]35.89916801102125, 80.0, -255.17974058116042)
+[20:18:37] [Async Chat Thread - #6/INFO]: <Zortwil> -265
+[20:30:23] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:30:23] [Server thread/INFO]: Zortwil left the game
+[20:30:26] [User Authenticator #31/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:30:26] [Server thread/INFO]: Zortwil[/127.0.0.1:34504] logged in with entity id 152153 at ([world]-823.4434345981921, 59.09375, -476.69210330564914)
+[20:32:01] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:32:01] [Server thread/INFO]: Zortwil left the game
+[20:48:16] [User Authenticator #32/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:48:16] [Server thread/INFO]: Zortwil[/127.0.0.1:34906] logged in with entity id 152939 at ([world]37.023084693579726, 75.0, -252.04120786761862)
+[20:48:56] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:48:56] [Server thread/INFO]: Zortwil left the game
+[21:16:58] [User Authenticator #33/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:16:58] [Server thread/INFO]: Zortwil[/127.0.0.1:35402] logged in with entity id 153261 at ([world]31.14298112970705, 90.0, -272.8070923735861)
+[21:17:26] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:17:26] [Server thread/INFO]: Zortwil left the game
+[21:48:07] [User Authenticator #34/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:48:08] [Server thread/INFO]: Zortwil[/127.0.0.1:36052] logged in with entity id 153678 at ([world]35.172495451755005, 77.0, -248.30000001192093)
+[21:48:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:48:36] [Server thread/INFO]: Zortwil left the game
+[22:31:08] [User Authenticator #35/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:31:08] [Server thread/INFO]: Zortwil[/127.0.0.1:36806] logged in with entity id 154211 at ([world]35.38066524668244, 80.0, -255.0682139516798)
+[22:32:18] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:32:18] [Server thread/INFO]: Zortwil left the game
+[22:38:51] [User Authenticator #36/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:38:51] [Server thread/INFO]: Zortwil[/127.0.0.1:36900] logged in with entity id 154400 at ([world]35.91754330272144, 80.5, -256.10899529336666)
+[23:05:00] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[23:05:00] [Server thread/INFO]: Zortwil left the game
+[23:53:42] [User Authenticator #37/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[23:53:42] [Server thread/INFO]: Zortwil[/127.0.0.1:38398] logged in with entity id 157793 at ([world_nether]-649.1374999880791, 64.375, 166.30000001192096)
+[00:18:01] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:18:01] [Server thread/INFO]: Zortwil left the game
+[00:29:43] [User Authenticator #38/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:29:43] [Server thread/INFO]: Zortwil[/127.0.0.1:39258] logged in with entity id 160490 at ([world]35.75876436299574, 78.0, -253.25848567868792)
+[00:32:44] [Server thread/INFO]: Villager EntityVillager['Villager'/160756, l='world', x=-885.46, y=44.74, z=-532.70] died, message: 'Villager drowned'
+[00:33:55] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:33:55] [Server thread/INFO]: Zortwil left the game
+[00:34:41] [User Authenticator #39/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:34:42] [Server thread/INFO]: Zortwil[/127.0.0.1:39392] logged in with entity id 161386 at ([world]-882.176220630315, 52.0, -535.2016325615006)
+[00:34:56] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:34:56] [Server thread/INFO]: Zortwil left the game
+[00:48:28] [User Authenticator #40/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:48:28] [Server thread/INFO]: Zortwil[/127.0.0.1:39766] logged in with entity id 161919 at ([world]-867.483476965873, 49.0, -528.3092583343073)
+[00:50:10] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:50:10] [Server thread/INFO]: Zortwil left the game
+[00:50:51] [User Authenticator #41/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:50:51] [Server thread/INFO]: Zortwil[/127.0.0.1:39772] logged in with entity id 162436 at ([world]-852.5423745856979, 48.0, -521.6430278462365)
+[00:53:26] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:53:26] [Server thread/INFO]: Zortwil left the game
+[02:22:55] [User Authenticator #42/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[02:22:55] [Server thread/INFO]: Zortwil[/127.0.0.1:41920] logged in with entity id 164039 at ([world]-861.764751533772, 49.0, -509.29660294126677)
+[02:26:05] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[02:26:05] [Server thread/INFO]: Zortwil left the game
+[05:35:20] [User Authenticator #43/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:35:20] [Server thread/INFO]: Zortwil[/127.0.0.1:45776] logged in with entity id 166940 at ([world]42.99675162920213, 72.0, -258.1968474290125)
+[05:35:43] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:35:43] [Server thread/INFO]: Zortwil left the game
+[10:10:01] [User Authenticator #44/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:10:01] [Server thread/INFO]: Zortwil[/127.0.0.1:51040] logged in with entity id 170126 at ([world]38.007556401026726, 76.0, -249.83166935755295)
+[10:16:52] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[10:16:53] [Server thread/INFO]: Zortwil left the game
+[10:41:29] [User Authenticator #45/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[10:41:29] [Server thread/INFO]: Zortwil[/127.0.0.1:51706] logged in with entity id 172044 at ([world]-848.6982528248703, 65.0, -528.5269323784486)
+[10:42:18] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[10:42:18] [Server thread/INFO]: Zortwil left the game
+[21:34:05] [User Authenticator #46/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:34:05] [Server thread/INFO]: Zortwil[/127.0.0.1:36452] logged in with entity id 179202 at ([world]-866.0969530057347, 49.0, -528.2941558985292)
+[21:35:14] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:35:14] [Server thread/INFO]: Zortwil left the game
+[02:45:46] [User Authenticator #47/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[02:45:46] [Server thread/INFO]: Zortwil[/127.0.0.1:43726] logged in with entity id 183095 at ([world]35.690344313969945, 80.5, -258.7042423198111)
+[02:46:16] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[02:46:16] [Server thread/INFO]: Zortwil left the game
+[06:24:51] [User Authenticator #48/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[06:24:51] [Server thread/INFO]: Zortwil[/127.0.0.1:48584] logged in with entity id 185624 at ([world]39.15433535809033, 76.0, -250.34802492099345)
+[06:29:22] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[06:29:22] [Server thread/INFO]: Zortwil left the game
+[19:43:50] [User Authenticator #49/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[19:43:50] [Server thread/INFO]: Zortwil[/127.0.0.1:35588] logged in with entity id 195079 at ([world]-853.6585307167401, 49.0, -511.7898532837155)
+[19:51:44] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[19:51:44] [Server thread/INFO]: Zortwil left the game
+[21:45:15] [User Authenticator #50/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:45:15] [Server thread/INFO]: Zortwil[/127.0.0.1:38262] logged in with entity id 198289 at ([world]35.78316686055237, 77.0, -251.93053135018644)
+[22:07:20] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:07:20] [Server thread/INFO]: Zortwil left the game
+[00:32:21] [User Authenticator #51/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:32:21] [Server thread/INFO]: Zortwil[/127.0.0.1:41634] logged in with entity id 201536 at ([world_nether]-1.225603764985789, 128.0, -36.63689875677905)
+[00:34:40] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:34:40] [Server thread/INFO]: Zortwil left the game
+[08:18:51] [User Authenticator #52/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:18:51] [Server thread/INFO]: Zortwil[/127.0.0.1:51468] logged in with entity id 207152 at ([world]-833.919020614822, 50.0, -481.90620641349506)
+[08:21:35] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[08:21:35] [Server thread/INFO]: Zortwil left the game
+[00:38:20] [User Authenticator #53/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:38:21] [Server thread/INFO]: Zortwil[/127.0.0.1:41826] logged in with entity id 218236 at ([world]29.03547314313859, 76.0, -252.94206487778155)
+[00:41:11] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:41:11] [Server thread/INFO]: Zortwil left the game
+[21:35:31] [User Authenticator #54/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:35:32] [Server thread/INFO]: Zortwil[/127.0.0.1:38482] logged in with entity id 232153 at ([world]35.47656497079867, 80.5, -258.13547850248267)
+[21:35:41] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:35:41] [Server thread/INFO]: Zortwil left the game
+[21:35:56] [User Authenticator #55/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:35:56] [Server thread/INFO]: Zortwil[/127.0.0.1:38488] logged in with entity id 232188 at ([world]35.47656497079867, 80.5, -258.13547850248267)
+[21:36:09] [Async Chat Thread - #7/INFO]: <Zortwil> .
+[21:36:28] [Async Chat Thread - #7/INFO]: <Zortwil> .
+[21:36:30] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:36:30] [Server thread/INFO]: Zortwil left the game
+[21:39:34] [User Authenticator #56/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:39:34] [Server thread/INFO]: Zortwil[/127.0.0.1:38594] logged in with entity id 232298 at ([world]36.30000001192093, 74.0, -252.30000001192093)
+[21:39:59] [Server thread/INFO]: Zortwil lost connection: Timed out
+[21:39:59] [Server thread/INFO]: Zortwil left the game
+[21:45:48] [User Authenticator #57/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:45:48] [Server thread/INFO]: Zortwil[/127.0.0.1:38694] logged in with entity id 232437 at ([world]36.30000001192093, 74.0, -252.30000001192093)
+[21:47:37] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:47:37] [Server thread/INFO]: Zortwil left the game
+[00:35:23] [User Authenticator #58/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[00:35:23] [Server thread/INFO]: Zortwil[/127.0.0.1:41924] logged in with entity id 234395 at ([world]37.337633859208054, 74.0, -253.04931902598886)
+[00:39:28] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[00:39:29] [Server thread/INFO]: Zortwil left the game
+[21:53:28] [User Authenticator #59/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:53:28] [Server thread/INFO]: Zortwil[/127.0.0.1:38200] logged in with entity id 248402 at ([world]-849.9010546321757, 49.0, -511.7392813110944)
+[21:57:45] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:57:45] [Server thread/INFO]: Zortwil left the game
+[08:07:06] [User Authenticator #60/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[08:07:06] [Server thread/INFO]: Zortwil[/127.0.0.1:49494] logged in with entity id 271157 at ([world]34.92446182946023, 72.0, -262.01729660600625)
+[08:14:07] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[08:14:07] [Server thread/INFO]: Zortwil left the game
+[20:04:32] [User Authenticator #61/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:04:32] [Server thread/INFO]: Zortwil[/127.0.0.1:34730] logged in with entity id 279715 at ([world]38.71502962367792, 73.0, -253.35732257610331)
+[20:35:16] [Server thread/INFO]: Zortwil was slain by Zombie
+[20:41:41] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:41:41] [Server thread/INFO]: Zortwil left the game
+[20:53:38] [User Authenticator #62/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:53:38] [Server thread/INFO]: Zortwil[/127.0.0.1:35616] logged in with entity id 283992 at ([world]33.29030708818321, 72.0, -258.0318118553615)
+[20:55:29] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[20:55:29] [Server thread/INFO]: Zortwil left the game
+[20:55:33] [User Authenticator #63/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:55:33] [Server thread/INFO]: Zortwil[/127.0.0.1:35718] logged in with entity id 284592 at ([world]-856.0246090412439, 49.0, -526.1556351134603)
+[21:10:14] [Server thread/INFO]: Villager EntityVillager['Librarian'/291417, l='world', x=-883.50, y=49.06, z=-529.49] died, message: 'Librarian burned to death'
+[21:18:29] [Server thread/INFO]: Villager EntityVillager['dumbass'/291418, l='world', x=-874.52, y=48.19, z=-533.70] died, message: 'dumbass was slain by dumbass'
+[21:21:47] [Server thread/INFO]: Villager EntityVillager['dumbass'/291419, l='world', x=-883.50, y=49.06, z=-529.49] died, message: 'dumbass burned to death'
+[21:23:28] [Server thread/INFO]: Zortwil has reached the goal [Zombie Doctor]
+[21:31:23] [Server thread/INFO]: Villager EntityVillager['Librarian'/291404, l='world', x=-870.50, y=48.19, z=-533.70] died, message: 'Librarian was slain by dumbass'
+[21:33:38] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:33:38] [Server thread/INFO]: Zortwil left the game
+[23:35:52] [User Authenticator #64/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[23:35:52] [Server thread/INFO]: matt18990[/127.0.0.1:38772] logged in with entity id 295742 at ([world]-283.03301918643893, 82.0, -451.72388439680765)
+[23:50:46] [Server thread/INFO]: Villager EntityVillager['Cartographer'/297015, l='world', x=-872.50, y=48.19, z=-533.70] died, message: 'Cartographer was slain by dumbass'
+[00:03:49] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[00:03:49] [Server thread/INFO]: matt18990 left the game
+[05:20:46] [User Authenticator #65/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:20:46] [Server thread/INFO]: Zortwil[/127.0.0.1:45590] logged in with entity id 305074 at ([world]-854.5230141257916, 49.0, -532.5591008957673)
+[05:22:35] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:22:35] [Server thread/INFO]: Zortwil left the game
+[22:59:58] [User Authenticator #66/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:59:59] [Server thread/INFO]: Zortwil[/127.0.0.1:37692] logged in with entity id 316717 at ([world]-853.3128005429082, 49.5, -536.5328330583508)
+[23:13:51] [Server thread/WARN]: Zortwil moved too quickly! 2137.896382975067,11.945106652967922,-10.265737323791686
+[23:15:24] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[23:15:24] [Server thread/INFO]: Zortwil left the game
+[05:29:17] [User Authenticator #67/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:29:17] [Server thread/INFO]: Zortwil[/127.0.0.1:45430] logged in with entity id 330114 at ([world_the_end]282.71922059682163, 1.5, 8.440980771313303)
+[05:32:34] [Server thread/INFO]: Zortwil fell from a high place
+[05:45:08] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:45:08] [Server thread/INFO]: Zortwil left the game
+[20:48:13] [User Authenticator #68/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[20:48:13] [Server thread/INFO]: Zortwil[/127.0.0.1:34476] logged in with entity id 346945 at ([world]-846.1958509451111, 48.0, -497.72100180006635)
+[20:54:40] [Async Chat Thread - #8/INFO]: <Zortwil> .
+[21:11:24] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:11:24] [Server thread/INFO]: Zortwil left the game
+[22:35:13] [User Authenticator #69/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:35:14] [Server thread/INFO]: Zortwil[/127.0.0.1:35062] logged in with entity id 374849 at ([world_nether]3.029220955896024, 128.0, -30.256581070726675)
+[22:38:20] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:38:20] [Server thread/INFO]: Zortwil left the game
+[22:40:58] [User Authenticator #70/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[22:40:58] [Server thread/INFO]: Zortwil[/127.0.0.1:34274] logged in with entity id 390171 at ([world]-855.6472157381334, 49.0, -512.0156966244762)
+[22:44:43] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[22:44:44] [Server thread/INFO]: Zortwil left the game
+[05:04:13] [User Authenticator #71/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[05:04:13] [Server thread/INFO]: Zortwil[/127.0.0.1:41816] logged in with entity id 395227 at ([world]36.09084849775653, 74.0, -252.49596537429667)
+[05:07:02] [Server thread/INFO]: Zortwil was slain by Iron Golem
+[05:08:39] [Server thread/INFO]: Zortwil was slain by Zombie
+[05:11:26] [Server thread/INFO]: Zortwil was blown up by Creeper
+[05:16:25] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[05:16:25] [Server thread/INFO]: Zortwil left the game
+[21:05:14] [User Authenticator #72/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:05:14] [Server thread/INFO]: Zortwil[/127.0.0.1:59614] logged in with entity id 408700 at ([world]-282.8155409417414, 11.0, -452.720967421542)
+[21:08:25] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:08:25] [Server thread/INFO]: Zortwil left the game
+[21:20:35] [User Authenticator #73/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[21:20:35] [Server thread/INFO]: Zortwil[/127.0.0.1:59908] logged in with entity id 409856 at ([world_nether]-102.9202173858934, 128.0, -62.98936714964334)
+[21:44:29] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[21:44:29] [Server thread/INFO]: Zortwil left the game
+[01:08:46] [User Authenticator #74/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
+[01:08:46] [Server thread/INFO]: Zortwil[/127.0.0.1:35898] logged in with entity id 415901 at ([world_nether]3.0688209172960446, 128.0, -31.351472461706567)
+[01:09:52] [Server thread/INFO]: Zortwil lost connection: Disconnected
+[01:09:52] [Server thread/INFO]: Zortwil left the game
+[04:04:18] [User Authenticator #75/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[04:04:18] [Server thread/INFO]: matt18990[/127.0.0.1:39600] logged in with entity id 417708 at ([world]-857.3188549402519, 49.0, -528.5459128126927)
+[04:04:55] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[04:04:55] [Server thread/INFO]: matt18990 left the game
+[04:05:12] [User Authenticator #76/INFO]: UUID of player matt18990 is db33f881-694f-3465-ac7f-128974eb7f31
+[04:05:13] [Server thread/INFO]: matt18990[/127.0.0.1:39720] logged in with entity id 418116 at ([world]-836.412064956154, 50.0, -483.9393212294002)
+[04:37:23] [Server thread/INFO]: matt18990 lost connection: Disconnected
+[04:37:23] [Server thread/INFO]: matt18990 left the game
+[02:33:05] [Thread-2/INFO]: Stopping server
+[02:33:06] [Thread-2/INFO]: Saving players
+[02:33:06] [Thread-2/INFO]: Saving worlds
+[02:33:06] [Thread-2/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:06] [Thread-2/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:06] [Thread-2/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:25] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:27] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

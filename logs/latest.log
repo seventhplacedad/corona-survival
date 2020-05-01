@@ -1,77 +1,12 @@
-[00:02:44] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[00:02:44] [Server thread/INFO]: Zortwil left the game
-[00:02:45] [User Authenticator #55/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[00:02:45] [Server thread/INFO]: Zortwil[/127.0.0.1:54746] logged in with entity id 430803 at ([world_nether]-649.1374999880791, 64.375, 166.34080993623306)
-[00:22:17] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[00:22:17] [Server thread/INFO]: Zortwil left the game
-[00:42:00] [User Authenticator #56/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[00:42:01] [Server thread/INFO]: Zortwil[/127.0.0.1:55508] logged in with entity id 436271 at ([world]-858.2328249810336, 49.0, -510.42390284487595)
-[00:47:03] [Server thread/INFO]: Villager EntityVillager['Villager'/436339, l='world', x=-883.70, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
-[00:57:02] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[00:57:02] [Server thread/INFO]: Zortwil left the game
-[01:25:37] [User Authenticator #57/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[01:25:37] [Server thread/INFO]: Zortwil[/127.0.0.1:56124] logged in with entity id 438260 at ([world]-865.6057986820634, 49.0, -512.6803346535316)
-[01:31:33] [Server thread/INFO]: Villager EntityVillager['Villager'/438330, l='world', x=-883.70, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
-[01:32:24] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[01:32:24] [Server thread/INFO]: Zortwil left the game
-[01:47:03] [User Authenticator #58/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[01:47:03] [Server thread/INFO]: Zortwil[/127.0.0.1:56516] logged in with entity id 439531 at ([world]-854.0124353121744, 49.0, -511.62043980983674)
-[01:49:18] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[01:49:18] [Server thread/INFO]: Zortwil left the game
-[02:49:05] [User Authenticator #59/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[02:49:05] [Server thread/INFO]: Zortwil[/127.0.0.1:57564] logged in with entity id 440055 at ([world]-862.0782275487869, 49.0, -509.45371638874525)
-[02:51:12] [Server thread/INFO]: Villager EntityVillager['Villager'/440123, l='world', x=-883.70, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
-[02:56:41] [Server thread/INFO]: Zortwil lost connection: Timed out
-[02:56:41] [Server thread/INFO]: Zortwil left the game
-[03:59:53] [User Authenticator #60/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[03:59:53] [Server thread/INFO]: Zortwil[/127.0.0.1:58502] logged in with entity id 441361 at ([world]-853.6164781044066, 49.0, -511.339674377655)
-[04:03:29] [Server thread/INFO]: Villager EntityVillager['Villager'/442884, l='world', x=-883.30, y=53.00, z=-532.30] died, message: 'Villager was squished too much'
-[04:05:32] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[04:05:32] [Server thread/INFO]: Zortwil left the game
-[04:05:33] [User Authenticator #61/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[04:05:34] [Server thread/INFO]: Zortwil[/127.0.0.1:58576] logged in with entity id 443606 at ([world_nether]-103.69999998807907, 86.0, -65.69999998807907)
-[04:10:55] [User Authenticator #62/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[04:10:55] [Server thread/INFO]: Zortwil lost connection: You logged in from another location
-[04:10:55] [Server thread/INFO]: Zortwil left the game
-[04:10:55] [Server thread/INFO]: Zortwil[/127.0.0.1:58654] logged in with entity id 444582 at ([world]-862.8293470111043, 49.0, -511.07843156673647)
-[04:14:37] [Async Chat Thread - #15/INFO]: <Zortwil> -104 -65
-[04:25:41] [Async Chat Thread - #16/INFO]: <Zortwil> -29 -60
-[04:34:26] [Async Chat Thread - #17/INFO]: <Zortwil> -546 165
-[04:39:33] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[04:39:33] [Server thread/INFO]: Zortwil left the game
-[05:30:09] [User Authenticator #63/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[05:30:09] [Server thread/INFO]: Zortwil[/127.0.0.1:59818] logged in with entity id 449078 at ([world]-836.1234536912924, 50.0, -486.86625079815013)
-[05:30:27] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[05:30:27] [Server thread/INFO]: Zortwil left the game
-[05:38:09] [User Authenticator #64/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[05:38:09] [Server thread/INFO]: Zortwil[/127.0.0.1:59896] logged in with entity id 449465 at ([world]-852.918038580275, 49.0, -527.5006551476503)
-[05:38:21] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[05:38:21] [Server thread/INFO]: Zortwil left the game
-[05:39:04] [User Authenticator #65/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[05:39:04] [Server thread/INFO]: Zortwil[/127.0.0.1:59970] logged in with entity id 449841 at ([world]-852.918038580275, 49.0, -527.5006551476503)
-[05:39:08] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[05:39:08] [Server thread/INFO]: Zortwil left the game
-[05:39:14] [User Authenticator #66/INFO]: UUID of player Zortwil is c94597c9-f9a6-3828-80f3-38dbd66e121c
-[05:39:14] [Server thread/INFO]: Zortwil[/127.0.0.1:59978] logged in with entity id 450213 at ([world]-852.645899340767, 49.0, -529.9566458078605)
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:45:11] [Server thread/ERROR]: Can't find any space for item in the inventory
-[05:50:36] [Server thread/INFO]: Zortwil lost connection: Disconnected
-[05:50:36] [Server thread/INFO]: Zortwil left the game
-[05:53:57] [Thread-2/INFO]: Stopping server
-[05:53:57] [Thread-2/INFO]: Saving players
-[05:53:57] [Thread-2/INFO]: Saving worlds
-[05:53:57] [Thread-2/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[05:53:57] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:53:57] [Thread-2/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[05:53:57] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:53:57] [Thread-2/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[05:53:57] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:53:57] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:54:02] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:54:03] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:33:05] [Thread-2/INFO]: Stopping server
+[02:33:06] [Thread-2/INFO]: Saving players
+[02:33:06] [Thread-2/INFO]: Saving worlds
+[02:33:06] [Thread-2/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:06] [Thread-2/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:06] [Thread-2/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:33:06] [Thread-2/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:33:25] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:33:27] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
